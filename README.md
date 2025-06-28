@@ -43,3 +43,72 @@ book-review-service/
 └── README.md
 
 
+---
+
+## ✅ Features
+
+- Add and list books with title and author
+- Add and view reviews linked to specific books
+- SQLite-based persistent storage
+- Redis-style caching simulation for review responses
+- Schema validation using Pydantic
+- Modular and testable design
+- Fully tested using Pytest
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/book-review-service.git
+cd book-review-service
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Running the app
+
+```bash
+uvicorn app.main:app --reload
+```
+
+
+Once running, visit:
+
+Swagger Docs: http://127.0.0.1:8000/docs
+Root Health Check: http://127.0.0.1:8000
+
+
+### 🧪 Running Tests
+
+To run all unit and integration tests:
+```bash
+pytest
+```
+
+Expected output:
+
+3 passed in 0.45s
+
+
+
+
+
+### 👨‍💻 Author
+
+Dhruv Gupta
+Software Developer
+📧 dhruvgupta9191@gmail.com
