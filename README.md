@@ -94,3 +94,18 @@ Dhruv Gupta
 
 Software Developer
 📧 dhruvgupta9191@gmail.com
+
+
+
+
+---
+
+## 🌍 Live Demo
+
+The project is deployed on **Render**.
+
+🔗 **Live URL**: [https://book-review-service-qjwp.onrender.com/docs](https://book-review-service-qjwp.onrender.com/docs)
+
+This link points to the interactive **Swagger UI** where you can test all API endpoints in real-time.
+
+---
