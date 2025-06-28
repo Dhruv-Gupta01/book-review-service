@@ -23,25 +23,6 @@ A FastAPI-based backend to manage books and their reviews — built as a backend
 - (Mocked) Redis caching
 - Pytest for testing
 
----
-
-## 📁 Project Structure
-
-book-review-service/
-├── app/
-│ ├── main.py # App entrypoint
-│ ├── models.py # SQLAlchemy models
-│ ├── schemas.py # Pydantic schemas
-│ ├── database.py # SQLite DB setup
-│ ├── cache.py # Redis (mocked) cache
-│ └── routers/
-│ ├── books.py # Book endpoints
-│ └── reviews.py # Review endpoints
-├── tests/
-│ └── test_books.py # Unit + integration tests
-├── requirements.txt
-└── README.md
-
 
 ---
 
@@ -110,5 +91,6 @@ Expected output:
 ### 👨‍💻 Author
 
 Dhruv Gupta
+
 Software Developer
 📧 dhruvgupta9191@gmail.com
